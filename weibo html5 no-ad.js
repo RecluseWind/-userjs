@@ -10,7 +10,7 @@
 // @require      https://cdn.staticfile.org/jquery/2.1.4/jquery.min.js
 //@license       MIT
 // ==/UserScript==
-
+//参考https://blog.csdn.net/weixin_43897573/article/details/106462979
 jQuery.noConflict();
 (function($) {
     'use strict';
