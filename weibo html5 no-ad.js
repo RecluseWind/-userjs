@@ -1,7 +1,6 @@
 // ==UserScript==
 // @name         微博 HTML5版 去除广告
-// @namespace    https://greasyfork.org/
-// @url          https://greasyfork.org/
+// @namespace    https://github.com/RecluseWind/userjs
 // @version      0.1
 // @description  weibo html5 no-ad
 // @author       You
@@ -9,6 +8,7 @@
 // @include      https://m.weibo.cn/*
 // @grant        none
 // @require      https://cdn.staticfile.org/jquery/2.1.4/jquery.min.js
+//@license       MIT
 // ==/UserScript==
 
 jQuery.noConflict();
