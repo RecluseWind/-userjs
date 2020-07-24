@@ -32,7 +32,7 @@ jQuery.noConflict();
                 $("div.wb-item-wrap").each(function() {
                     if ($(this).find("div.m-ctrl-box").length>0) {
                         $(this).remove();
-                        console.log("清除广告微博成功");
+                        //console.log("清除广告微博成功");
                     }
                 })
             }, 1000);
