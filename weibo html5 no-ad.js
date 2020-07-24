@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         微博 HTML5版 去除广告
 // @namespace    https://github.com/RecluseWind/userjs
-// @version      0.1.1
+// @version      0.1.2
 // @description  weibo html5 no-ad
 // @author       RecluseWind
 // @match        https://m.weibo.cn/*
 // @include      https://m.weibo.cn/*
 // @grant        none
-// @require      https://cdn.staticfile.org/jquery/2.1.4/jquery.min.js
+// @require      https://code.jquery.com/jquery-3.3.1.min.js
 //@license       MIT
 // ==/UserScript==
 //参考https://blog.csdn.net/weixin_43897573/article/details/106462979
