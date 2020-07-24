@@ -3,7 +3,7 @@
 // @namespace    https://github.com/RecluseWind/userjs
 // @version      0.1
 // @description  weibo html5 no-ad
-// @author       You
+// @author       RecluseWind
 // @match        https://m.weibo.cn/*
 // @include      https://m.weibo.cn/*
 // @grant        none
