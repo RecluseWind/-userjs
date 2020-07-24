@@ -25,7 +25,7 @@ jQuery.noConflict();
                 refresh();
             }
             refresh();
-          }, 1000);
+        }, 1000);
 		//清理广告方法
         function refresh(){
             setTimeout(function(){
