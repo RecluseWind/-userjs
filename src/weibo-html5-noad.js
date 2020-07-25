@@ -8,7 +8,7 @@
 // @include      https://m.weibo.cn/*
 // @grant        none
 // @require      https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js
-// @updateURL    https://raw.githubusercontent.com/RecluseWind/userjs/master/weibo%20html5%20no-ad.js
+// @updateURL    https://github.com/RecluseWind/userjs/raw/master/src/weibo-html5-noad.js
 //@license       MIT
 // ==/UserScript==
 //参考：https://blog.csdn.net/weixin_43897573/article/details/106462979
