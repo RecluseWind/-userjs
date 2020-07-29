@@ -8,7 +8,7 @@
 // @include      https://m.weibo.cn/*
 // @grant        none
 // @require      https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js
-// @updateURL    https://github.com/RecluseWind/userjs/raw/master/src/weibo-html5-noad.js
+// @updateURL    https://raw.githubusercontent.com/RecluseWind/userjs/master/src/weibo-html5-noad.js
 //@license       MIT
 // ==/UserScript==
 //参考：https://blog.csdn.net/weixin_43897573/article/details/106462979
@@ -36,7 +36,7 @@ jQuery.noConflict();
                         //console.log(text);
                         //判断广告微博类型进行屏蔽，避免误伤"粉丝可见"
                         const blockList = ["广告","分享","粉丝头条"];
-                        if(blockList.indexOf(text)>-1){
+                        if (blockList.indexOf(text)>-1) {
                             $(this).remove();
                         }
                     }
