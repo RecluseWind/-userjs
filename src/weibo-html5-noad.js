@@ -26,7 +26,7 @@ jQuery.noConflict();
             }
             refresh();
         }, 1000);
-	//清理广告微博
+	    //清理广告微博
         function refresh(){
             setTimeout(function(){
                 //判断每个div.wb-item-wrap,是否有后代元素div.m-ctrl-box
@@ -35,7 +35,7 @@ jQuery.noConflict();
                         let text=$(this).find("h4").html();
                         //console.log(text);
                         //判断广告微博类型进行屏蔽，避免误伤"粉丝可见"
-                        const blockList = ["广告","分享","粉丝头条"];
+                        const blockList = ["广告","分享","粉丝头条","热推"];
                         if (blockList.indexOf(text)>-1) {
                             $(this).remove();
                         }
